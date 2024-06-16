@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 7</title>
+    
+    <style type="text/css">
+        body {
+            background-color: #A32C54;
+        }
+
+        div {
+            background-color:#74213D;
+            padding: 10px;
+            margin: 60px;
+            margin-left: 180px;
+            width: 75%;
+            color: white;
+        }
+
+        .container {
+            background-color: #74213D;
+            width:30%;
+            padding-left: 150px;
+            margin-left:300px;
+        }
+
+        #name,#email {
+            margin-left: 60px;
+        }
+        #password {
+            margin-left: 38px;
+        }
+        #ph-num {
+            margin-left: 4px;
+        }
+
+        #male {
+            margin-left: 50px;
+        }
+
+        #language {
+            margin-left: 40px;
+        }
+
+        #zip-code {
+            margin-left: 40px;
+        }
+
+        #about {
+            margin-left: 110px;
+            margin-top: -20px;
+        }
+
+        button {
+            text-align: center;
+            background-color: white;
+            padding:10px;
+            width:200px;
+            margin-left: 50px;
+            border-top-left-radius: 10px;
+            border-top-right-radius:10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                </p>
+        
+                <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                </p>
+        
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </p>
+        
+                <p>
+                    <label for="ph-num">Phone Number:</label>
+                    <input type="number" name="ph-num" id="ph-num">
+                </p>
+        
+                <p>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+        
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+        
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+                </p>
+        
+                <p>
+                    <label for="language">Language</label>
+                    <select id="language" name="language">
+                        <option value="select" selected disabled>Select language</option>
+                        <option value="english">English</option>
+                        <option value="tamil">Tamil</option>
+                        <option value="hindi">Hindi</option>
+                    </select>
+                </p>
+        
+                <p>
+                    <label for="zip-code">Zip Code:</label>
+                    <input type="number" name="zip-code" id="zip-code">
+                </p>
+        
+                <p>
+                    <label for="about">About</label>
+                    <textarea name="about" id="about" cols="30" rows="5" placeholder="Write about yourself"></textarea>
+                </p>
+
+                <p>
+                    <button>Register</button>
+                </p>
+        </div>
+    </div>
+</body>
+</html>
